@@ -1,24 +1,16 @@
-# README
+# Angular 2 & Rails 5 Boilerplate
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby v2.3.0
+* Angular v2.2.0
+* Webpack v1.13.0
 
-Things you may want to cover:
 
-* Ruby version
+How to use:
+git clone https://github.com/Aelmgren/ng2-rails5-boilerplate [AppName]
+cd [AppName]
+bundle install
+npm install
+rails db:create
+rails s -p 3000
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Make sure you've created the corresponding users from /config/database.yml in your postgres db
